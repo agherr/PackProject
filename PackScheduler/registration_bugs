@@ -1,0 +1,8 @@
+Listing bugs.
+Logout method does not set current user to null
+Login method does not check both registrar and student list id correctly  before throwing exception
+Login doesn't account for a current user already logged in.
+Login returns false when exception should be thrown.
+Login throws exception when password is incorrect.
+Login should not return null when a user logs in while another user is logged in.
+A student not in the directory should not be logged in.
